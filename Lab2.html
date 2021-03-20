@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ro">     <!--Ex 3 CSS-->
+<head>
+<meta charset="utf-8">
+<!-- Adding icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Seven Fitness Club</title>
+<link href="lab2_style.css" rel="stylesheet" type="text/css">
+<script src="myfile.js"></script> <!--Ex 15 JS-->
+
+</head>
+
+<body>
+	<header>
+		<div><img src="seven_logo.png" alt="SevenGymLogo"></div>
+		<div><h1>Seven Fitness Club</h1></div>
+		<div><img src="seven_logo.png" alt="SevenGymLogo"></div>
+	</header>
+	
+	<div class="menu">
+		<ul>
+			<li>CLUBURI</li>
+			<li>ABONAMENTE</li>
+			<li><a href="group_fitness.xml">GROUP FITNESS</a></li>
+			<li>
+				<a onclick="myDropdownFunction()" class="dropbtn">ANTRENORI</a>
+				<ul id="dropdown" class="dropdown-content">
+					<a href="#adina" class="antrenor">Adina Catana</a>
+					<a href="#andrei" class="antrenor">Andrei Krisan</a>
+					<a href="#eduard" class="antrenor">Eduard Chivu</a>
+					<a href="#ioana" class="antrenor">Ioana Patraru</a>
+					<a href="#lorand" class="antrenor">Lorand Szabo</a>
+				</ul>
+			</li> <!-- _parent -> Opens the linked document in the parent frame-->
+			<li><a href="lab1.html" target="_parent">ALĂTURĂ-TE</a></li>
+	    </ul>
+	</div>
+	
+	<div class="main">
+		<img src="gym.jpg" alt="SevenGymInterior">
+	</div>
+	
+	<footer>
+		<div>
+		    <img src="seven_logo.png" alt="SevenGymLogo">
+		</div>
+		<div>
+			 <b>Contact:</b>
+			 <br>
+			 <a href="https://www.facebook.com/sevenfitness.in/community/" class="fa fa-facebook"></a>
+			 <a href="mailto:7gym@gmail.com" class="fa fa-google"></a>
+			 <a href="tel:+40777511304" class="fa fa-phone"></a>
+		</div>
+		<div>
+			<p>Întregul conținut al acestui website este proprietatea Seven Fitness Club România.</p>
+		</div>
+	</footer>
+
+</body>
+	
+</html>

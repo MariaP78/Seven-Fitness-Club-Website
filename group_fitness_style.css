@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+.captabel{
+	background-color: white;
+}
+.bodymind{
+	background-color: #FFBAF9;
+	font-family: cursive;
+	font-style:italic;
+}
+
+.cardio{
+	background-color: #CC2FBF;
+	font-family: cursive;
+}
+
+.fitness{
+	
+	background-color: #7b41b4;
+	font-family: cursive;
+	font-weight: bold;
+}
+
+table,th,tr,td{
+	margin: auto;
+  	width: 50%;
+  	padding: 10px;
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+body{
+	margin: 0px;
+	display: flex;
+  	flex-direction: column;
+  	min-height: 100vh;
+}
+
+h1{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+}
+
+header{
+	height: 100px;
+	background-color: #8B6BAA;
+	width: 100%;
+	align-items: center;
+	display: inline-flex;
+}
+
+header div{
+	width: 33%;
+	text-align: center;
+}
+
+header img{
+	 height: 90px;
+}
+
+.menu{
+	background-color: #CCAD2F;
+    white-space: nowrap;
+}
+
+.menu ul{
+	margin: 0px;
+}
+
+.menu ul li{
+	width: 150px;
+	display: inline-block;
+	padding: 14px 14px;
+	transition: all 0.8s ease;
+	font-weight: 700;
+	text-align: center;
+	position:relative;
+}
+
+.menu ul li:hover{
+	color: white;
+	background-color: #7b41b4;
+	padding: 14px 14px;
+	cursor: pointer;
+}
+
+.main{
+	background-color: white;
+	width: 100%;
+	flex: 1;
+}
+
+.main img{
+	height: 700px;
+	width: 100%;
+}
+
+footer{
+	height: 60px;
+	background-color: #8B6BAA;
+	width: 100%;
+	align-items: center;
+	display: inline-flex;
+}
+
+footer div{
+	width: 33%;
+	text-align: center;
+}
+footer img{
+	 height: 50px;
+}

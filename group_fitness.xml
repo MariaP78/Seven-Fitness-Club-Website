@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="group_fitness.xslt"?> <!--link xslt stylesheet to xml-->
+<clase>
+
+    <clase_de_grup>
+        <nume>Metabolic Workout</nume>
+        <antrenor>Lorand Szabo</antrenor>
+        <tip>Cardio</tip>
+        <data>18/03/2021</data>
+        <durata>45</durata>
+    </clase_de_grup>
+
+    <clase_de_grup>
+        <nume>Cycling</nume>
+        <antrenor>Adina Catana</antrenor>
+        <tip>Cardio</tip>
+        <data>18/03/2021</data>
+        <durata>60</durata>
+    </clase_de_grup>
+
+    <clase_de_grup>
+        <nume>Yoga</nume>
+        <antrenor>Ioana Patraru</antrenor>
+        <tip>Body and Mind</tip>
+        <data>20/03/2021</data>
+        <durata>30</durata>
+    </clase_de_grup>
+
+    <clase_de_grup>
+        <nume>Interval</nume>
+        <antrenor>Eduard Chivu</antrenor>
+        <tip>Fitness</tip>
+        <data>22/03/2021</data>
+        <durata>90</durata>
+    </clase_de_grup>
+
+    <clase_de_grup>
+        <nume>Body Pump</nume>
+        <antrenor>Andrei Krisan</antrenor>
+        <tip>Fitness</tip>
+        <data>20/03/2021</data>
+        <durata>60</durata>
+    </clase_de_grup>
+
+    <clase_de_grup>
+        <nume>Pilates</nume>
+        <antrenor>Ioana Patraru</antrenor>
+        <tip>Body and Mind</tip>
+        <data>19/03/2021</data>
+        <durata>50</durata>
+    </clase_de_grup>
+
+    <clase_de_grup>
+        <nume>C-Core</nume>
+        <antrenor>Adina Catana</antrenor>
+        <tip>Fitness</tip>
+        <data>21/03/2021</data>
+        <durata>120</durata>
+    </clase_de_grup>
+
+</clase>
+
+<!--Ex 3 XML/XSLT:
+List by using XSLT all group classes grouped by types (cardio,fitness etc.). 
+Within each type, group classes should be ordered alphabetically. 
+The group classes are described in an XML document and have at least the followind attributes: 
+nume, antrenor, tip, data, durata, etc. 
+Each group class type should be formatted using a different CSS class.-->

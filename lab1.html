@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<title>Formular membru</title>
+<script src="myfile.js"></script>
+<link href="lab1_style.css" rel="stylesheet" type="text/css">
+</head>
+	
+<body>
+	<div>
+		<a href="https://www.facebook.com/sevenfitness.in/community/" target="_blank">
+			<img src="seven_picture.png" alt="7Gym" width="500" height="150">
+		</a>
+		<h1>Seven Fitness Club</h1>
+		<h2>Learn to live healthy!</h2>
+		<em><p style="font-size: 20px; text-align: center;" title="Descrierea facilitatilor din cluburile noastre">Echipamente de ultimă generație, cele mai cool accesorii de fitness, concepte exclusive de fitness și antrenori certificați internațional. In materie de facilități și servicii de fitness deținem <span style="color: #CCAD2F;font-weight:bold">superlativul absolut</span>. Nu trebuie să ne crezi pe cuvant. Vino și convinge-te singur!</p></em>
+	</div>
+	
+	<form id="7fitnessclub_form">
+		<fieldset>
+			<legend>Detalii club</legend>
+			<label for = "club">Locații:</label>
+			<br>
+			<select name="club" id="club" size="7" multiple>
+				<option value="worldclassPloiești">Seven Fitness Ploiești</option>
+				<option value="worldclassSibiu">Seven Fitness Sibiu</option>
+				<option value="worldclassCluj">Seven Fitness Cluj</option>
+				<option value="worldclassBucurești">Seven Fitness București</option>
+				<option value="worldclassTimișoara">Seven Fitness Timișoara</option>
+				<option value="worldclassIași">Seven Fitness Iași</option>
+			</select>
+		</fieldset>
+		
+		<fieldset>
+			<legend>Abonamente</legend>
+			<label>Tipuri de abonamente:</label>
+			<br>
+			<select name="ab" id="ab">
+				<option value="LOCAL">LOCAL</option>
+				<option value="BRONZE">BRONZE</option>
+				<option value="SILVER">SILVER</option>
+				<option value="GOLD">GOLD</option>
+				<option value="PLATINUM" selected>PLATINUM</option>
+			</select>
+		</fieldset>
+		
+		<fieldset>
+			<legend>Prețuri</legend> 
+			<table>
+				<tr>
+					<th>Statut</th>
+					<th>Abonamente</th>
+				</tr>
+				<tr>
+					<td>Student</td>
+					<td>
+						<table>
+							<tr>
+								<th>Tip Abonament</th>
+								<th>Preț</th>
+								<th>Nr. ședinte cu PT incluse</th>
+							</tr>
+							<tr>
+								<td>LOCAL</td>
+								<td>100 RON</td>
+								<td style="vertical-align: middle" rowspan="5">2 sedințe cu PT incluse</td>
+							</tr>
+							<tr>
+								<td>BRONZE</td>
+								<td>150 RON</td>
+							</tr>
+							<tr>
+								<td>SILVER</td>
+								<td>200 RON</td>
+							</tr>
+							<tr>
+								<td>GOLD</td>
+								<td>250 RON</td>
+							</tr>
+							<tr>
+								<td>PLATINUM</td>
+								<td>300 RON</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td>Adult</td>
+					<td>
+						<table>
+							<tr>
+								<th>Tip Abonament</th>
+								<th>Preț</th>
+								<th>Nr. ședinte cu PT incluse</th>
+							</tr>
+							<tr>
+								<td>LOCAL</td>
+								<td>150 RON</td>
+								<td style="vertical-align: middle" rowspan="5">1 sedință cu PT inclusă</td>
+							</tr>
+							<tr>
+								<td>BRONZE</td>
+								<td>200 RON</td>
+							</tr>
+							<tr>
+								<td>SILVER</td>
+								<td>250 RON</td>
+							</tr>
+							<tr>
+								<td>GOLD</td>
+								<td>300 RON</td>
+							</tr>
+							<tr>
+								<td>PLATINUM</td>
+								<td>400 RON</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: center" colspan="2">Clase de grup: +100RON</td>
+				</tr>
+			</table>
+			<br>
+		</fieldset>
+		
+		<fieldset>
+			<legend>Clase de grup</legend>
+			<ul>
+				<li>Aerobic
+					<ul>
+						<li>Fitness
+							<ol>
+								<li>Body Pump</li>
+								<li>Legs and Glutes</li>
+								<li>Interval</li>
+						    </ol>
+						</li>
+						<li>Cardio
+							<ol class="b" start="4">
+								<li>Strength Cardio</li>
+								<li>HIIT Workout</li>
+						    </ol>
+						</li>
+				    </ul>
+				</li>
+				<li>Cycling
+					<ol class="a">
+						<li>High End Endurance</li>
+						<li>Fartlek</li>
+				    </ol>
+				</li>
+			</ul>
+		</fieldset>
+		
+		<fieldset>
+			<legend>Date client</legend>
+			<input type="text" placeholder="Cod client" disabled> (se completează de către personalul de la recepția clubului fitness)
+			<br>
+			<br>
+			<input type="text" placeholder="Nume">
+			<input type="text" placeholder="Prenume">
+			<br>
+			<br>
+			<label for="birthday">Data nașterii:</label>
+			<br>
+			<input type="date" id="birthday">
+			<br>
+			<br>
+			<input type="text" placeholder="Adresa">
+			<br>
+			<br>
+			<input type="email" placeholder="E-mail">
+			<input type="text" placeholder="Număr de telefon"  maxlength="10">
+			<br>
+			<br>
+			<label>Cetățenie:</label>
+			<br>
+			<input type="checkbox" checked>
+			<label>Romană</label>
+			<br>
+			<input type="checkbox">
+			<label>Germană</label>
+			<br>
+			<input type="checkbox">
+			<label>Franceză</label>
+			<br>
+			<input type="checkbox">
+			<label>Britanică</label>
+			<br>
+			<input type="checkbox">
+			<input type="text" placeholder="Altă cetățenie">
+			<br>
+			<br>
+			<label>Abonament:</label>
+			<br>
+		    <input type="radio" id="LOCAL" name="Abo" value="LOCAL">
+			<label for="LOCAL">LOCAL</label>
+			<br>
+		    <input type="radio" id="BRONZE" name="Abo" value="BRONZE">
+			<label for="BRONZE">BRONZE</label>
+			<br>
+		    <input type="radio" id="SILVER" name="Abo" value="SILVER">
+			<label for="SILVER">SILVER</label>
+			<br>
+		    <input type="radio" id="GOLD" name="Abo" value="GOLD">
+			<label for="GOLD">GOLD</label>
+			<br>
+		    <input type="radio" id="PLATINUM" name="Abo" value="PLATINUM">
+			<label for="PLATINUM">PLATINUM</label>
+			<br>
+			<br>
+			<textarea rows="7" cols="70" readonly>In cazul in care doriți să participați la clasele de grup, vă rugăm să menționati acest lucru la recepția clubului și să vă faceți rezervare prin intermediul aplicației cu cel puțin 26h inainte, pentru a vă asigura participarea!</textarea>
+		</fieldset>
+	</form>
+	<div class="centersubmit"><button type = "submit" form = "7fitnessclub_form"onclick='runButton()'>SUBMIT</button></div>
+</body>
+</html>
